@@ -3,6 +3,8 @@
 This library calculates the page number, selects the corresponding page, and finally returns the page and the related pagination metadata for futher useage as HTTP headrs or for HATEOAS link generation by providing a simple API. A `PageFactory` which accepts an `IQueryable<YourViewModel>` and a `PageRequest`, and returns a `PagedViewModel<YourViewModel>`
 
 ## How to use it
+`Install-Package Vlerx.Pagination`
+
 Let's see the following query:
 ```cs
 public IQueryable<User> ListUsers()
@@ -10,7 +12,6 @@ public IQueryable<User> ListUsers()
   return DbContext.Users;
 }
 ```
-Now `Install-Package Vlerx.Pagination`.
 We want to paginate it as well as returning all the related pagination metadata `using Pagination;`.
 ```cs
 public PagedViewModel<Users> ListUsers(PageRequest request)
