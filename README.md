@@ -25,7 +25,7 @@ Let's call it.
 var page = ListUsers(new PageRequest{PageNumber = 1, PageSize = 10});
 ```
 
-This is how the returned page is structured:
+The returned page is structured like the following.
 ```cs
 public class PagedViewModel<T>
 {
