@@ -22,9 +22,10 @@ readonly IPageFactory pageFactory;
 ```
 Let's call it.
 ```cs
-PagedViewModel<User> page = ListUsers(new PageRequest{PageNumber = 1, PageSize = 10});
+var page = ListUsers(new PageRequest{PageNumber = 1, PageSize = 10});
 ```
-this is what it returns:
+
+This is how the returned page is structured:
 ```cs
 public class PagedViewModel<T>
 {
