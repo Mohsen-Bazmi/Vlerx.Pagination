@@ -1,7 +1,5 @@
 [![NuGet version (Vlerx.Pagination)](https://img.shields.io/nuget/v/Vlerx.Pagination.svg?style=flat-square)](https://www.nuget.org/packages/Vlerx.Pagination/)
 
-`Install-Package Vlerx.Pagination`
-
 This library calculates the page number, selects the corresponding page, and finally returns the page and the related pagination metadata for futher useage as HTTP headrs or for HATEOAS link generation by providing a simple API. A `PageFactory` which accepts an `IQueryable<YourViewModel>` and a `PageRequest`, and returns a `PagedViewModel<YourViewModel>`
 
 ## How to use it
@@ -12,6 +10,7 @@ public IQueryable<User> ListUsers()
   return DbContext.Users;
 }
 ```
+Now `Install-Package Vlerx.Pagination`.
 We want to paginate it as well as returning all the related pagination metadata `using Pagination;`.
 ```cs
 public PagedViewModel<Users> ListUsers(PageRequest request)
