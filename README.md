@@ -2,9 +2,7 @@
 
 This library calculates the page number, selects the corresponding page, and finally returns the page and the related pagination metadata for futher useage as HTTP headrs or for HATEOAS link generation by providing a simple API. A `PageFactory` which accepts an `IQueryable<YourViewModel>` and a `PageRequest`, and returns a `PagedViewModel<YourViewModel>`
 
-
 ## How to use it
-
 Let's see the following query:
 ```cs
 public IQueryable<User> ListUsers()
