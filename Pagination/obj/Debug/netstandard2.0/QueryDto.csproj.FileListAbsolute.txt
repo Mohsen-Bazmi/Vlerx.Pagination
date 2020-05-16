@@ -1,0 +1,8 @@
+/home/mohsen/Desktop/Sample/Cross-cutting/Pagination/bin/Debug/netstandard2.0/Pagination.deps.json
+/home/mohsen/Desktop/Sample/Cross-cutting/Pagination/bin/Debug/netstandard2.0/Pagination.dll
+/home/mohsen/Desktop/Sample/Cross-cutting/Pagination/bin/Debug/netstandard2.0/Pagination.pdb
+/home/mohsen/Desktop/Sample/Cross-cutting/Pagination/obj/Debug/netstandard2.0/Pagination.csprojAssemblyReference.cache
+/home/mohsen/Desktop/Sample/Cross-cutting/Pagination/obj/Debug/netstandard2.0/Pagination.AssemblyInfoInputs.cache
+/home/mohsen/Desktop/Sample/Cross-cutting/Pagination/obj/Debug/netstandard2.0/Pagination.AssemblyInfo.cs
+/home/mohsen/Desktop/Sample/Cross-cutting/Pagination/obj/Debug/netstandard2.0/Pagination.dll
+/home/mohsen/Desktop/Sample/Cross-cutting/Pagination/obj/Debug/netstandard2.0/Pagination.pdb
