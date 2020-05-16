@@ -1,6 +1,6 @@
 This library calculates the page number, selects the corresponding page, and finally returns the page and the related pagination metadata for futher useage as HTTP headrs or for HATEOAS link generation by providing a simple API. A `PageFactory` which accepts an `IQueryable<YourViewModel>` and a `PageRequest`, and returns a `PagedViewModel<YourViewModel>`
 
-## How to use it:
+## How to use it
 Install [this](https://www.nuget.org/packages/Vlerx.Pagination/) nuget package.
 
 Let's see the following query:
