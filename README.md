@@ -10,7 +10,7 @@ public IQueryable<User> ListUsers()
   return DbContext.Users;
 }
 ```
-We want to paginate it as well as returning all the related pagination metadata.
+We want to paginate it as well as returning all the related pagination metadata `using Pagination;`.
 ```cs
 public PagedViewModel<Users> ListUsers(PageRequest request)
 {
@@ -44,7 +44,7 @@ public class PageCounter
     public bool HasPrevious { get; }
 }
 ```
-The `IPageFactory` can be easily injected by any IOC:
+The `PageFactory` can be easily injected by any IOC:
 ```cs
 services.AddSingleton<IPageFactory, PageFactory>();
 ```
