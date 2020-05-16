@@ -14,7 +14,7 @@ We want to paginate it as well as returning all the related pagination metadata.
 ```cs
 public PagedViewModel<Users> ListUsers(PageRequest request)
 {
-   pageFactory.Paginate(db.Query<UserItemViewModel>(), request);
+   pageFactory.Paginate(dbContext.Users, request);
 }
 readonly IPageFactory pageFactory;
 ```
