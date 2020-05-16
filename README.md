@@ -4,7 +4,6 @@ This library calculates the page number, selects the corresponding page, and fin
 
 
 ## How to use it
-Install [this](https://www.nuget.org/packages/Vlerx.Pagination/) nuget package.
 
 Let's see the following query:
 ```cs
